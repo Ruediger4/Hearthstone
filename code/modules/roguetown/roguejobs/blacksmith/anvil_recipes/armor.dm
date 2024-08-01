@@ -233,9 +233,36 @@
 	i_type = "Armor"
 
 /datum/anvil_recipe/armor/helmetnasal
-	name = "Helmet"
+	name = "Nasal Helmet"
 	req_bar = /obj/item/ingot/steel
 	created_item = /obj/item/clothing/head/roguetown/helmet
+	i_type = "Armor"
+
+/datum/anvil_recipe/armor/helmetbarbute
+	name = "Barbute Helmet (+1 Steel)"
+	req_bar = /obj/item/ingot/steel
+	additional_items = list(/obj/item/ingot/steel)
+	created_item = /obj/item/clothing/head/roguetown/helmet/heavy
+	i_type = "Armor"
+
+/datum/anvil_recipe/armor/helmetkettle
+	name = "Kettle Helmet"
+	req_bar = /obj/item/ingot/steel
+	created_item = /obj/item/clothing/head/roguetown/helmet/kettle
+	i_type = "Armor"
+
+/datum/anvil_recipe/armor/helmetsavoyard
+	name = "Savoyard Helmet (+1 Steel)"
+	req_bar = /obj/item/ingot/steel
+	additional_items = list(/obj/item/ingot/steel)
+	created_item = /obj/item/clothing/head/roguetown/helmet/heavy/guard
+	i_type = "Armor"
+
+/datum/anvil_recipe/armor/helmetbarred
+	name = "Barred Helmet (+1 Steel)"
+	req_bar = /obj/item/ingot/steel
+	additional_items = list(/obj/item/ingot/steel)
+	created_item = /obj/item/clothing/head/roguetown/helmet/heavy/sheriff
 	i_type = "Armor"
 
 /datum/anvil_recipe/armor/bervor
@@ -245,7 +272,7 @@
 	i_type = "Armor"
 
 /datum/anvil_recipe/armor/helmetsall
-	name = "Sallet"
+	name = "Sallet Helmet"
 	req_bar = /obj/item/ingot/steel
 	created_item = /obj/item/clothing/head/roguetown/helmet/sallet
 	i_type = "Armor"
