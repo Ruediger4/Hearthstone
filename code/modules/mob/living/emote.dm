@@ -371,6 +371,12 @@
 	emote_type = EMOTE_AUDIBLE
 	show_runechat = FALSE
 
+/datum/emote/living/conqrah
+	key = "conqrah"
+	message = "shouts triumphally!"
+	emote_type = EMOTE_AUDIBLE
+	only_forced_audio = TRUE
+
 /datum/emote/living/giggle
 	key = "giggle"
 	key_third_person = "giggles"
